@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/socialent/static/css/main.4f46e397.chunk.css",
+    "main.js": "/socialent/static/js/main.df00c32b.chunk.js",
+    "main.js.map": "/socialent/static/js/main.df00c32b.chunk.js.map",
+    "runtime-main.js": "/socialent/static/js/runtime-main.176f1d56.js",
+    "runtime-main.js.map": "/socialent/static/js/runtime-main.176f1d56.js.map",
+    "static/js/2.1d4a51d7.chunk.js": "/socialent/static/js/2.1d4a51d7.chunk.js",
+    "static/js/2.1d4a51d7.chunk.js.map": "/socialent/static/js/2.1d4a51d7.chunk.js.map",
+    "index.html": "/socialent/index.html",
+    "precache-manifest.141d60c0b66c12a2791732f35785e775.js": "/socialent/precache-manifest.141d60c0b66c12a2791732f35785e775.js",
+    "service-worker.js": "/socialent/service-worker.js",
+    "static/css/main.4f46e397.chunk.css.map": "/socialent/static/css/main.4f46e397.chunk.css.map",
+    "static/js/2.1d4a51d7.chunk.js.LICENSE.txt": "/socialent/static/js/2.1d4a51d7.chunk.js.LICENSE.txt",
+    "static/media/_fonts.css": "/socialent/static/media/HelveticaBold.c8af73bb.woff",
+    "static/media/Instagram-1.png": "/socialent/static/media/Instagram-1.16d1134d.png",
+    "static/media/Instagram-2.png": "/socialent/static/media/Instagram-2.94b8f267.png",
+    "static/media/chill-man.png": "/socialent/static/media/chill-man.9aabf4b5.png",
+    "static/media/langing-page-main.png": "/socialent/static/media/langing-page-main.0a482ee9.png",
+    "static/media/login-man.png": "/socialent/static/media/login-man.85b02561.png",
+    "static/media/main-page-man.png": "/socialent/static/media/main-page-man.d309be18.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.176f1d56.js",
+    "static/js/2.1d4a51d7.chunk.js",
+    "static/css/main.4f46e397.chunk.css",
+    "static/js/main.df00c32b.chunk.js"
+  ]
+}
