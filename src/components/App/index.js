@@ -1,10 +1,11 @@
 import React from "react";
-import styles from "./styles";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import HomePage from "../../pages/HomePage";
 import LandingPage from "../../pages/LandingPage";
-import LoginPage from "../../pages/LoginPage"
+import LoginPage from "../../pages/LoginPage";
+import TermsPage from "../../pages/TermsPage";
+import PrivacyPage from "../../pages/PrivacyPage";
 import Header from "../Header";
 
 function App() {
@@ -23,9 +24,12 @@ function App() {
           <Route path="/login">
             <LoginPage />
           </Route>
-          {/* <Route path="/terms">
-            <Terms />
-          </Route> */}
+          <Route path="/terms">
+            <TermsPage />
+          </Route>
+          <Route path="/privacypolicy">
+            <PrivacyPage />
+          </Route>
         </Switch>
       </div>
     </Router>

@@ -1,8 +1,7 @@
 import React from "react";
-import styles from "./styles";
 import Button from "../../components/Button";
 import logo from "../../assets/images/logo.png";
-import man from "../../assets/images/main-page-man.png";
+import man from "../../assets/images/login-man.png";
 
 import { Link } from "react-router-dom";
 
