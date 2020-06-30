@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./styles";
+import "./style.css";
 import logo from "../../assets/images/logo.png";
 
 import { Link } from "react-router-dom";
@@ -11,32 +11,22 @@ function Header() {
   const location = useLocation();
 
   return (
-    <div>
-      <header
-        style={
-          location.pathname === "/"
-            ? { ...styles.navStyle, ...styles.shadow }
-            : { ...styles.navStyle }
-        }
-      >
+    <div className={`${location.pathname === "/" && "shadow"}`}>
+      <header className="navStyle">
         <img src={logo} alt="Logo" />
-
-        <div style={styles.displayFlex}>
-          <ul
-            style={{
-              ...styles.displayFlex,
-              ...styles.merged,
-              margin: "0 90px",
-            }}
-          >
-            <li style={styles.merged}>
-              <Link to="/">Product</Link>
+        <div className="displayFlexHeader">
+          <ul className="displayFlexHeaderUl mergedHeader">
+            <li className="mergedHeader">
+              <a href={process.env.PUBLIC_URL + '/'}>Product</a>
+              {/* <Link to="/"></Link> */}
             </li>
-            <li style={styles.merged}>
-              <Link to="/landing">Pricing</Link>
+            <li className="mergedHeader">
+            <a href={process.env.PUBLIC_URL + '/landing'}>Pricing</a>
+              {/* <Link to="/"></Link> */}
             </li>
-            <li style={styles.merged}>
-              <Link to="/login">Login</Link>
+            <li className="mergedHeader">
+            <a href={process.env.PUBLIC_URL + '/login'}>Login</a>
+              {/* <Link to="/"></Link> */}
             </li>
           </ul>
 
